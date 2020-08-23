@@ -30,7 +30,7 @@ Stunnel_Port1='443' # through Dropbear
 Stunnel_Port2='444' # through OpenSSH
 
 # OpenVPN Ports
-OpenVPN_TCP_Port='1194'
+OpenVPN_TCP_Port='443'
 OpenVPN_UDP_Port='443'
 
 # Privoxy Ports
@@ -285,6 +285,8 @@ verb 2
 ncp-disable
 cipher none
 auth none
+duplicate-cn
+max-clients 50
 myOpenVPNconf
 
 cat <<'myOpenVPNconf2' > /etc/openvpn/server_udp.conf
