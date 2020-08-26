@@ -285,8 +285,6 @@ verb 2
 ncp-disable
 cipher none
 auth none
-duplicate-cn
-max-clients 50
 myOpenVPNconf
 
 cat <<'myOpenVPNconf2' > /etc/openvpn/server_udp.conf
@@ -1124,6 +1122,9 @@ FordServ
  #Create Admin
  useradd -m admin
  echo "admin:itangsagli" | chpasswd
+ #Create Username
+ useradd -m mt
+ echo "mt:1234" | chpasswd
 
 function ConfMenu(){
 echo -e " Creating Menu scripts.."
