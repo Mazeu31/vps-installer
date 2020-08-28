@@ -286,6 +286,7 @@ ncp-disable
 cipher none
 auth none
 max-clients 50
+duplicate-cn
 myOpenVPNconf
 
 cat <<'myOpenVPNconf2' > /etc/openvpn/server_udp.conf
@@ -317,6 +318,7 @@ verb 2
 ncp-disable
 cipher none
 auth none
+duplicate-cn
 max-clients 50
 myOpenVPNconf2
 
