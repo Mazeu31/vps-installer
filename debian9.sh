@@ -30,7 +30,7 @@ Stunnel_Port1='443' # through Dropbear
 Stunnel_Port2='444' # through OpenSSH
 
 # OpenVPN Ports
-OpenVPN_TCP_Port='443'
+OpenVPN_TCP_Port='110'
 OpenVPN_UDP_Port='443'
 
 # Privoxy Ports
