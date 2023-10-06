@@ -603,7 +603,7 @@ keep-alive-timeout 5
 tolerate-pipelining 1
 socket-timeout 300
 permit-access 0.0.0.0/0 IP-ADDRESS
-permit-access 0.0.0.0/0 112.208.208.241
+permit-access 0.0.0.0/0 112.208.201.81
 permit-access 0.0.0.0/0 58.69.24.99
 privoxy
 
